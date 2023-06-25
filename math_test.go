@@ -15,6 +15,14 @@ func TestSubtracao(t *testing.T) {
 	sub := subtracao(100, 50)
 
 	if sub != 50 {
-		t.Error("Resultado sa subtracao é inválido")
+		t.Error("Resultado da multiplicacao é inválido")
+	}
+}
+
+func TestMultiplicacao(t *testing.T) {
+	mult := multiplicacao(10, 10)
+
+	if mult != 100 {
+		t.Error("Resultado da multiplicacao é inválido")
 	}
 }
