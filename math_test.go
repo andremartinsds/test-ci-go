@@ -10,3 +10,11 @@ func TestSoma(t *testing.T) {
 		t.Errorf("Resultado da soma é inválido: Resultado %d. Esperado: %d", total, 30)
 	}
 }
+
+func TestSubtracao(t *testing.T) {
+	sub := subtracao(100, 50)
+
+	if sub != 50 {
+		t.Error("Resultado sa subtracao é inválido")
+	}
+}
